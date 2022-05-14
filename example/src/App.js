@@ -29,7 +29,7 @@ const App = () => {
             <h3>Content Title</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eius molestiae perferendis eos provident vitae iste.</p>
             </div>
-
+      
           </div>
         </ScrollEffect>
 
