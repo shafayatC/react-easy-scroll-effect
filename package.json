@@ -1,10 +1,10 @@
 {
-  "name": "react-scroll-effect",
+  "name": "react-easy-scroll-effect",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Easy scroll animation for reactJs",
   "author": "shafayatC",
   "license": "MIT",
-  "repository": "shafayatC/react-scroll-effect",
+  "repository": "shafayatC/react-easy-scroll-effect",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -23,8 +23,19 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
+  "keywords": [
+    "reactjs",
+    "react",
+    "scroll",
+    "effects",
+    "reactScrollEffects",
+    "animate",
+    "animation",
+    "hooks",
+    "component"
+  ],
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16.0.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
