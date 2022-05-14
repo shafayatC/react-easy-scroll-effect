@@ -41,7 +41,26 @@ import 'react-easy-scroll-effect/dist/index.css'
 const App = () => {
   return (
     <div>
+    
         <ScrollEffect>
+          <h1> some text here</h1>
+        </ScrollEffect>
+
+    </div>
+  );
+}
+```
+
+##### example 2 (with options)
+```
+import { ScrollEffect } from 'react-easy-scroll-effect'
+import 'react-easy-scroll-effect/dist/index.css'
+
+const App = () => {
+  return (
+    <div>
+
+        <ScrollEffect offset = {200} duration={2} animateOut={true}>
           <h1> some text here</h1>
         </ScrollEffect>
 
