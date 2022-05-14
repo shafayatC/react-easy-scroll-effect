@@ -23,7 +23,7 @@ class Example extends Component {
     return <MyComponent />
   }
 }
-```
+``` 
 
 ## License
 
